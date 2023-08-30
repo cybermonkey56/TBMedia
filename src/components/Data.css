@@ -1,0 +1,48 @@
+.fulldiv{
+    background-color: white;
+    width: 70%;
+    padding: 20px 40px;
+    margin: 40px 40px;
+}
+.title-div{
+    padding: 10px 10px;
+    width: 90%;
+    font-size: 20px;font-weight: 700;
+    letter-spacing: .6px;
+    line-height: 40px;
+    font-family: Public Sans,sans-serif!important;
+}
+.sep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.date{
+    text-align: center;
+    color: #aeafaf;
+    font-family: Ubuntu,sans-serif;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.press{
+    font-weight: 600;font-size: 12px;letter-spacing: .6px;text-transform: uppercase;color: #233539;
+}
+.linkk{
+    background: #1c1d20;
+    color: #fff;
+    margin-left: 16px;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-weight: 700;    
+    border: none;
+}
+.linkk:hover{
+    background-color: #ffc200 ;
+    color: #1c1d20;
+    transition: 1s;
+}

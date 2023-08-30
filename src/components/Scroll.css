@@ -1,0 +1,75 @@
+.sidebar{
+    position:relative;
+    top: 70px;
+    left: -100px;
+    background-color: transparent;
+    width: 15px;
+    height: 2px;
+    z-index: 200;
+    padding-top: 30px;
+}
+
+.sidebar_link,
+.sidebar_link_bottom,
+.sidebar_link_top{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color:rgb(221, 221, 221);
+}
+.sidebar_link:hover, .sidebar_link_bottom:hover, .sidebar_link_top:hover{
+    background-color:#ffc200;
+}
+
+.sidebar_link_bottom{
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.sidebar_link_top{
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    position: relative;
+}
+.sidebar_link_bottom .tooltip{
+    position: absolute;
+    background-color: #ffc200;
+    padding: 4px 4px 4px 4px;
+    font-size: small;
+    opacity: 0;
+    right: 0;
+    width: 40px;
+}
+.sidebar_link_bottom:hover .tooltip{
+    opacity: 1;
+}
+.sidebar_link .tooltip{
+    position: absolute;
+    background-color: #ffc200;
+    padding: 4px 4px 4px 4px;
+    font-size: small;
+    right: 0;
+    width: 40px;
+    top: 50;
+    opacity: 0;
+}
+.sidebar_link:hover .tooltip{
+    opacity: 1;
+    transition: 0.2s;
+
+}
+.sidebar_link_top .tooltip{
+    position: absolute;
+    background-color: #ffc200;
+    padding: 4px 4px 4px 4px;
+    font-size: small;
+    opacity: 0;
+    right: 0;
+    width: 50px;
+}
+.sidebar_link_top:hover .tooltip{
+    opacity: 1;
+    transition: 0.1s;
+}

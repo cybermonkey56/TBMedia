@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgb(241, 241 , 241); 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+    height: 400px;
+    margin-top: 200px;
+}
+.bottom-line {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 5px;
+    background-color: #ffc200;
+  }
